@@ -1,0 +1,90 @@
+---
+title: "ISA 616: Communicating with Data"
+subtitle: "10: GitHub - A Very Short Introduction"
+author: '<br>Allison Jones-Farmer, PhD <br> <a href="https://github.com/allisonjones"><i class="fa fa-github fa-fw"></i>&nbsp; allisonjones</a><br><a href="mailto:farmerl2@miamioh.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; farmerl2@miamioh.edu</a><br><br><br>Fadel M. Megahed, PhD <br> <a href="https://github.com/fmegahed"><i class="fa fa-github fa-fw"></i>&nbsp; fmegahed</a><br> <a href="mailto:fmegahed@miamioh.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; fmegahed@miamioh.edu</a><br><br>'
+date: "<br>`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/my-theme.css", "css/my-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      in_header: header.html
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+miamired = '#84d6d3'
+
+if(require(pacman)==FALSE) install.packages("pacman")
+pacman::p_load(tidyverse, magrittr, emojifont)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+if(require(xaringanthemer) == FALSE) install.packages("xaringanthemer")
+library(xaringanthemer)
+style_mono_accent(base_color = "#84d6d3")
+
+```
+
+
+# Learning Objectives for Today's Class
+
+- Explaining what is **version control** and why should you use it?  
+
+- Understanding the **setup process for version control** using Git:    
+  * Register for a [GitHub](https://github.com) account. 
+  * Installing [Git](https://happygitwithr.com/install-git.html) on your computer. 
+  * Installing a Git Client
+
+- Explaining what common **Git** commands mean.  
+
+- Creating a **repo**, **tracking changes** and exploring a **file's history**.  
+
+- Sharing information on the web (i.e., **remotes** -- we will use GitHub)
+
+- **Collaborating** with other people.
+
+- Connecting **RStudio to Git and GitHub**
+
+- Running an example. 
+
+
+---
+class: inverse, center, middle
+
+# Automated Version Control
+
+---
+
+```{r notFinal1, echo=FALSE, fig.align='center', fig.cap="Source: www.phdcomics.com | title: 'notFinal.doc' | originally published: 10/12/2012", out.width = "40%", out.height = "40%"}
+knitr::include_graphics("figures/phd101212s.png")
+```
+
+**Note while this looks like a comic, many of the people in my generation did and experienced this.** `r emojifont::emoji(emojifont::search_emoji('frown'))[3]`
+
+---
+
+# Manual Version Control: A Personal Example
+
+```{r notFinal2, echo=FALSE, fig.align='center', fig.cap="Working on my first research grant. This is an example of both version control and commiting to a remote server.", out.width = "100%", out.height = "100%"}
+knitr::include_graphics("figures/priorToGit.PNG")
+```
+
+**I am the first to admit that this was a RIDICULOUS system.**
+
+---
+
+# Embedded Version Control
+
+```{r embedded, echo=FALSE, fig.align='center', fig.cap="A recent research project in Google Docs.", out.width = "90%", out.height = "90%"}
+knitr::include_graphics("figures/embeddedVersionControl1.PNG")
+```
+
+**A better approach for handling version control for word-processor type documents.**
+
