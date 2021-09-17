@@ -80,11 +80,22 @@ knitr::include_graphics("figures/priorToGit.PNG")
 
 ---
 
-# Embedded Version Control
+# Embedded Version Control [1]
 
-```{r embedded, echo=FALSE, fig.align='center', fig.cap="A recent research project in Google Docs.", out.width = "90%", out.height = "90%"}
+```{r embedded1, echo=FALSE, fig.align='center', fig.cap="A recent research project in Word.", out.width = "50%", out.height = "50%"}
 knitr::include_graphics("figures/embeddedVersionControl1.PNG")
 ```
 
+**What are two limitations of track changes in a word document?**
+
+---
+
+# Embedded Version Control [2]
+
+```{r embedded2, echo=FALSE, fig.align='center', fig.cap="A recent research project in Google Docs.", out.width = "90%", out.height = "90%"}
+knitr::include_graphics("figures/embeddedVersionControl2.PNG")
+```
+
 **A better approach for handling version control for word-processor type documents.**
+
 
