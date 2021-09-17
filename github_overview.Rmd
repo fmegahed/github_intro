@@ -98,4 +98,42 @@ knitr::include_graphics("figures/embeddedVersionControl2.PNG")
 
 **A better approach for handling version control for word-processor type documents.**
 
+---
 
+# Version Control Systems
+
+For flat (i.e., code, CSV, .txt) files, version control systems capture a **base version of the file** and record your progress as you progress. Unlike a Google Doc, the recording of progress/milestones have to be initiated by **YOU** through **commits**. 
+
+**Some characteristics:**  
+
+- You can think of the **track changes** as the process of recording different versions of our files.  
+
+- You decide which changes will be made to the next version (each record of these changes is called a **commit**), and keeps useful metadata about them.  
+
+- In practice, a **commit** captures multiple files. It is the equivalent of versioning by adding your initials and/or date as seen in the PhD comic in Slide 4.  
+
+- The complete history of commits for a particular project and their metadata make up a **repository**.   
+
+- Repositories facilitate collaboration among people working in different locations and time-zones.
+
+---
+
+# A Picture is Worth a Thousand Words [1]
+
+```{r git1, echo=FALSE, fig.align='center', fig.cap="How is Git tracking changes to this presentation?", out.width = "60%", out.height = "60%"}
+knitr::include_graphics("figures/git1.PNG")
+```
+
+---
+
+# A Picture is Worth a Thousand Words [2]
+
+```{r git2, echo=FALSE, fig.align='center', fig.cap="How is Git tracking changes to a changed figure (non-flat) file?", out.width = "60%", out.height = "60%"}
+knitr::include_graphics("figures/git2.PNG")
+```
+
+
+---
+class: inverse, center, middle
+
+# The Setup Process for Version Control (w/ Git, GitHub, GitHub Desktop and RStudio)
