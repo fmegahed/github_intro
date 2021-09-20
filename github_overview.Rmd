@@ -1,7 +1,7 @@
 ---
 title: "ISA 616: Communicating with Data"
 subtitle: "10: GitHub - A Very Short Introduction"
-author: '<br>Allison Jones-Farmer, PhD <br> <a href="https://github.com/allisonjones"><i class="fa fa-github fa-fw"></i>&nbsp; allisonjones</a><br><a href="mailto:farmerl2@miamioh.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; farmerl2@miamioh.edu</a><br><br><br>Fadel M. Megahed, PhD <br> <a href="https://github.com/fmegahed"><i class="fa fa-github fa-fw"></i>&nbsp; fmegahed</a><br> <a href="mailto:fmegahed@miamioh.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; fmegahed@miamioh.edu</a><br><br>'
+author: '<br>Allison Jones-Farmer, PhD <br> <a href="https://github.com/ajonesfarmer"><i class="fa fa-github fa-fw"></i>&nbsp; ajonesfarmer</a><br><a href="mailto:farmerl2@miamioh.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; farmerl2@miamioh.edu</a><br><br><br>Fadel M. Megahed, PhD <br> <a href="https://github.com/fmegahed"><i class="fa fa-github fa-fw"></i>&nbsp; fmegahed</a><br> <a href="mailto:fmegahed@miamioh.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; fmegahed@miamioh.edu</a><br><br>'
 date: "<br>`r format(Sys.Date(), '%B %d, %Y')`"
 output:
   xaringan::moon_reader:
