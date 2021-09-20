@@ -2,7 +2,7 @@
 title: "ISA 616: Communicating with Data"
 subtitle: "10: GitHub - A Very Short Introduction"
 author: '<br>Allison Jones-Farmer, PhD <br> <a href="https://github.com/ajonesfarmer"><i class="fa fa-github fa-fw"></i>&nbsp; ajonesfarmer</a><br><a href="mailto:farmerl2@miamioh.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; farmerl2@miamioh.edu</a><br><br><br>Fadel M. Megahed, PhD <br> <a href="https://github.com/fmegahed"><i class="fa fa-github fa-fw"></i>&nbsp; fmegahed</a><br> <a href="mailto:fmegahed@miamioh.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; fmegahed@miamioh.edu</a><br><br>'
-date: "<br>`r format(Sys.Date(), '%B %d, %Y')`"
+date: "<br> September 23, 2021"
 output:
   xaringan::moon_reader:
     css: ["default", "css/my-theme.css", "css/my-fonts.css"]
@@ -414,8 +414,8 @@ class: inverse, center, middle
 
 # The Workflow
 
-```{r gitHubFlow, echo=FALSE}
-knitr::include_url("https://guides.github.com/introduction/flow/", height = "500px")
+```{r gitHubFlow, echo=FALSE, fig.cap ="Source: https://guides.github.com/introduction/flow/ | Use the controls to interact with embedded page."}
+knitr::include_url("https://guides.github.com/introduction/flow/", height = "450px")
 
 ```
 
@@ -435,7 +435,7 @@ In this live coding example, we will recreate the process from the command line/
 
 # Git with R Studio
 
-```{r gitJenny, fig.cap="Connecting RStudio to Git and GitHub. An awesome resource by Jenny Bryan and Jim Hester.", echo=FALSE}
+```{r gitJenny, fig.cap="Connecting RStudio to Git and GitHub. Source: Jenny Bryan https://happygitwithr.com/rstudio-git-github.html", echo=FALSE}
 knitr::include_url("https://happygitwithr.com/rstudio-git-github.html", height = "450px")
 ```
 
@@ -484,9 +484,7 @@ PrintBibliography(bib)
 # Thanks
 
 .pull-left[
-- Please do not hesitate to contact Dr. Jones-Farmer or myself if you have questions pertaining to GitHub.  For my contact information, see:  
-  * <a href="mailto:fmegahed@miamioh.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; fmegahed@miamioh.edu</a>  
-  * <a href="https://calendly.com/fmegahed/"><i class="fa fa-question"></i>&nbsp; Schedule a Virtual Meeting</a>
+- Please do not hesitate to contact Dr. Jones-Farmer or myself if you have questions pertaining to GitHub.  Please email me at <a href="mailto:fmegahed@miamioh.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; fmegahed@miamioh.edu</a> or use the following automated scheduler to <a href="https://calendly.com/fmegahed/"><i class="fa fa-question"></i>&nbsp; schedule a virtual Meeting</a>.
 
 - I would recommend the following resources for more information on Git/GitHub:  
   * [The Official Git Help Doc](https://git-scm.com/docs/)
@@ -497,7 +495,9 @@ PrintBibliography(bib)
   
 - Slides were created via the R package **xaringan**, with styling based on:  
   * [xariganthemer](https://cran.r-project.org/web/packages/xaringanthemer/vignettes/xaringanthemer.html) package, and  
-  * Alison Hill's [@apreshill](https://github.com/apreshill/) CSS resources for customizing themes and fonts
+  * Alison Hill's [@apreshill](https://github.com/apreshill/) CSS resources for customizing themes and fonts  
+
+- You can find the raw .Rmd file, accompanying figures, and CSS files used to create these slides at [fmegahed/github_intro](https://github.com/fmegahed/github_intro)
 ]
 
 .pull-right[
