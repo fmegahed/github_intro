@@ -495,10 +495,11 @@ PrintBibliography(bib)
   * [GitHub Docs: GitHub CLI](https://docs.github.com/en/github-cli)  
   * [Happy Git and GitHub for the useR](https://happygitwithr.com/index.html)  
   
-- Slides were created via the R package **xaringan**.
+- Slides were created via the R package **xaringan**, with styling based on:  
+  * [xariganthemer](https://cran.r-project.org/web/packages/xaringanthemer/vignettes/xaringanthemer.html) package, and  
+  * Alison Hill's [@apreshill](https://github.com/apreshill/) CSS resources for customizing themes and fonts
 ]
 
-
 .pull-right[
-<img src="https://www.verouden.net/slides/presentation-xaringan/img/questions.gif" width="300" height="300" />
+<img src="https://www.verouden.net/slides/presentation-xaringan/img/questions.gif" width="400" height="400" />
 ]
